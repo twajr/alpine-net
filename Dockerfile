@@ -15,4 +15,4 @@ USER nonroot
 
 WORKDIR /home/nonroot
 
-ENTRYPOINT ["sh"]
+CMD ["/bin/sh"]
