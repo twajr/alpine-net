@@ -2,8 +2,8 @@
 # Alpine-net
 # Alpine image with network tools
 #
-
 FROM alpine:3.4
+MAINTAINER: Tom Armstrong
 
 # non-root tools
 RUN apk --update add nmap nmap-scripts curl tcpdump bind-tools jq nmap-ncat libcap && \
